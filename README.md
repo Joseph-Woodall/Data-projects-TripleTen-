@@ -1,4 +1,4 @@
-# Data-projects-TripleTen-
+# Data_projects_TripleTen_
 A collection of data analytics and business intelligence projects showcasing my skills in SQL, Python, Power BI, and Tableau.
 
 ## Projects Overview
