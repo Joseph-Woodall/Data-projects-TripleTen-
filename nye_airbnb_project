@@ -1,0 +1,99 @@
+# NYC Airbnb Market Analysis
+
+## Project Overview
+Analysis of Manhattan's Airbnb market using Excel to provide data-driven investment recommendations and revenue optimization strategies. The project focuses on identifying prime neighborhoods, optimal property sizes, and revenue potential for real estate investors.
+
+## Assumptions & Methodology
+
+### Core Assumptions
+- Review frequency (number_of_reviews_ltm) serves as rental frequency proxy
+- Property size preferences indicate market demand in specific neighborhoods
+- Revenue calculations based on adjusted_price for rented days
+- Annual revenue projected using 30-day revenue × 12
+- Dataset completeness and accuracy assumed
+- All monetary values in USD
+
+### Data Sources
+- Primary dataset: "nyc_airbnb_data_v2.xlsx"
+- Key metrics:
+  - Listing details
+  - Neighborhood information
+  - Pricing data
+  - Review metrics
+  - Property characteristics
+
+## Development Timeline
+
+### Initial Phase (v1.0 - v1.2)
+- Data import and setup
+- Neighborhood data cleaning
+  - Standardized capitalization
+  - Removed trailing spaces
+- Property size data normalization
+  - Studio apartments marked as 0 bedrooms
+  - Created clean bedroom metrics
+
+### Analysis Phase (v1.3 - v1.4)
+- Revenue calculation implementation
+  - Daily revenue tracking
+  - 30-day revenue aggregation
+  - Annual revenue projections
+- Top listing identification
+  - Neighborhood ranking
+  - Property size analysis
+  - Revenue potential assessment
+
+### Enhancement Phase (v1.5 - v1.8)
+- Documentation standardization
+- Metric additions:
+  - Overall rating calculation
+  - Amenities counting
+  - Neighborhood percentage analysis
+- Pivot table creation:
+  - Top 10 neighborhood analysis
+  - Property size distribution
+  - Revenue rankings
+
+## Key Deliverables
+
+### Neighborhood Analysis
+- Top 10 neighborhoods ranked by review frequency
+- Property size preferences by area
+- Market demand indicators
+
+### Revenue Analysis
+- 30-day revenue calculations
+- Annual revenue projections
+- Top performer identification
+
+### Property Metrics
+- Overall rating system
+- Amenities tracking
+- Bedroom size distribution
+
+## Technical Implementation
+
+### Data Processing
+- Excel functions utilized:
+  - SUMIF() for revenue aggregation
+  - Pivot tables for analysis
+  - Conditional formatting
+  - Data validation
+
+### Analysis Tools
+- Excel spreadsheets
+- Pivot tables
+- Data cleaning functions
+- Statistical analysis tools
+
+## Results and Impact
+- Identified optimal investment neighborhoods
+- Determined preferred property sizes by area
+- Calculated revenue potential
+- Created actionable investment recommendations
+
+## Future Enhancements
+- Seasonal trend analysis
+- Price optimization modeling
+- Competitive analysis
+- Market saturation assessment
